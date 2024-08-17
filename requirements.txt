@@ -1,0 +1,27 @@
+# Bibliotecas principais
+tensorflow==2.13.0      # Versão atual do TensorFlow com Keras integrado
+numpy==1.24.3           # Biblioteca para manipulação de arrays
+scipy==1.11.1           # Biblioteca para computação científica
+scikit-learn==1.3.0     # Ferramentas para aprendizado de máquina
+pandas==2.0.3           # Manipulação de dados
+
+# Visualização de dados
+matplotlib==3.7.2       # Biblioteca de gráficos
+seaborn==0.12.2         # Visualização estatística
+plotly==5.16.1          # Gráficos interativos
+opencv-python==4.8.0.74 # Processamento de imagens
+
+# Manipulação e processamento de imagens
+Pillow==10.0.0          # Biblioteca para processamento de imagens
+
+# Notebooks e Jupyter
+jupyter==1.0.0          # Conjunto de ferramentas Jupyter Notebook
+ipykernel==6.25.2       # Kernel do IPython para Jupyter
+nbformat==5.9.1         # Suporte para formatos de notebook
+
+# Outras ferramentas úteis
+albumentations==1.3.0   # Augmentação de dados para imagens
+tqdm==4.66.1            # Barra de progresso
+h5py==3.9.0             # Suporte para arquivos de modelo Keras (.h5)
+pydot==1.4.2            # Suporte para visualização de modelos
+graphviz==0.20.1        # Visualização de gráficos de modelos

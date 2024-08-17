@@ -1,0 +1,26 @@
+/Skin_tone_segmentation_and_analysis/
+│
+├── /dataset/                # Diretório para armazenar o dataset
+│   ├── /train/              # Subdiretório para imagens de treinamento
+│   │   ├── /Malignant/      # Imagens de melanomas malignos para treino
+│   │   └── /Benign/         # Imagens de melanomas benignos para treino
+│   ├── /test/               # Subdiretório para imagens de teste
+│   │   ├── /Malignant/      # Imagens de melanomas malignos para teste
+│   │   └── /Benign/         # Imagens de melanomas benignos para teste
+│
+├── /src/                    # Diretório para scripts Python
+│   ├── unet_model.py        # Definição do modelo U-Net
+│   ├── train.py             # Script para treinamento do modelo
+│   ├── evaluate.py          # Script para avaliar o modelo
+│   └── utils.py             # Funções utilitárias (pré-processamento, métricas etc.)
+│
+├── /notebooks/              # Jupyter Notebooks para experimentação e visualização
+│   └── exploratory_data_analysis.ipynb
+│
+├── /results/                # Diretório para salvar resultados (modelos treinados, gráficos etc.)
+│
+├── /testvenv/               # Ambiente virtual (venv)
+│
+├── requirements.txt         # Arquivo de dependências do projeto
+└── README.md                # Descrição do projeto e instruções de uso
+
